@@ -20,7 +20,7 @@ for (var i=1;i<=5;i++) {
         if (cl === "dark") {
             btn.setAttribute('class', 'light');
             btn.textContent = 'Висвітлити';
-            overlay.style.backgroundColor ="rgba(0,0,0,0,5)";
+            overlay.style.backgroundColor ="rgba(0,0,0,0.5)";
         }
         else {
             btn.setAttribute('class', 'dark');
